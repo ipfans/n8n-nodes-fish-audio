@@ -1,0 +1,18 @@
+{
+	"node": "n8n-nodes-base.FishAudioNode",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Miscellaneous"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://fish.audio/go-api"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://fish.audio/go-api"
+			}
+		]
+	}
+}

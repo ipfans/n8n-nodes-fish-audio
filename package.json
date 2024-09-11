@@ -1,19 +1,29 @@
 {
-  "name": "n8n-nodes-<...>",
+  "name": "n8n-nodes-fish-audio",
   "version": "0.1.0",
   "description": "",
   "keywords": [
-    "n8n-community-node-package"
+    "n8n-community-node-package",
+    "fish-audio",
+    "tts",
+    "text-to-speech",
+    "ai",
+    "speech",
+    "voice",
+    "audio",
+    "ai",
+    "automation",
+    "n8n"
   ],
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://fish.audio",
   "author": {
-    "name": "",
-    "email": ""
+    "name": "ipfans",
+    "email": "ipfanscn@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/<...>/n8n-nodes-<...>.git"
+    "url": "https://github.com/ipfans/n8n-nodes-fish-audio.git"
   },
   "engines": {
     "node": ">=18.10",
@@ -36,15 +46,15 @@
   "n8n": {
     "n8nNodesApiVersion": 1,
     "credentials": [
-      "dist/credentials/ExampleCredentialsApi.credentials.js",
-      "dist/credentials/HttpBinApi.credentials.js"
+      "dist/credentials/FishAudioApi.credentials.js"
     ],
     "nodes": [
-      "dist/nodes/ExampleNode/ExampleNode.node.js",
-      "dist/nodes/HttpBin/HttpBin.node.js"
+      "dist/nodes/FishAudioNode/FishAudioNode.node.js"
     ]
   },
   "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.3.0",
+    "@types/node": "^22.5.4",
     "@typescript-eslint/parser": "^7.15.0",
     "eslint": "^8.56.0",
     "eslint-plugin-n8n-nodes-base": "^1.16.1",
@@ -55,5 +65,8 @@
   },
   "peerDependencies": {
     "n8n-workflow": "*"
+  },
+  "dependencies": {
+    "form-data": "^4.0.0"
   }
 }
